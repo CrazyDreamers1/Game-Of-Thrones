@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CE5169842356EB6F00305792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5169832356EB6F00305792 /* AppDelegate.swift */; };
 		CE5169862356EB6F00305792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5169852356EB6F00305792 /* SceneDelegate.swift */; };
-		CE5169882356EB6F00305792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5169872356EB6F00305792 /* ViewController.swift */; };
+		CE5169882356EB6F00305792 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5169872356EB6F00305792 /* HomeViewController.swift */; };
 		CE51698B2356EB6F00305792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5169892356EB6F00305792 /* Main.storyboard */; };
 		CE51698D2356EB7000305792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE51698C2356EB7000305792 /* Assets.xcassets */; };
 		CE5169902356EB7000305792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE51698E2356EB7000305792 /* LaunchScreen.storyboard */; };
+		CE516999235718C000305792 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE516998235718C000305792 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE5169802356EB6F00305792 /* Game Of Thrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Of Thrones.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5169832356EB6F00305792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5169852356EB6F00305792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE5169872356EB6F00305792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5169872356EB6F00305792 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CE51698A2356EB6F00305792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE51698C2356EB7000305792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE51698F2356EB7000305792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5169912356EB7000305792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE516998235718C000305792 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		CE5169822356EB6F00305792 /* Game Of Thrones */ = {
 			isa = PBXGroup;
 			children = (
+				CE516997235718A700305792 /* Model */,
 				CE5169832356EB6F00305792 /* AppDelegate.swift */,
 				CE5169852356EB6F00305792 /* SceneDelegate.swift */,
-				CE5169872356EB6F00305792 /* ViewController.swift */,
+				CE5169872356EB6F00305792 /* HomeViewController.swift */,
 				CE5169892356EB6F00305792 /* Main.storyboard */,
 				CE51698C2356EB7000305792 /* Assets.xcassets */,
 				CE51698E2356EB7000305792 /* LaunchScreen.storyboard */,
 				CE5169912356EB7000305792 /* Info.plist */,
 			);
 			path = "Game Of Thrones";
+			sourceTree = "<group>";
+		};
+		CE516997235718A700305792 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE516998235718C000305792 /* Character.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5169882356EB6F00305792 /* ViewController.swift in Sources */,
+				CE5169882356EB6F00305792 /* HomeViewController.swift in Sources */,
 				CE5169842356EB6F00305792 /* AppDelegate.swift in Sources */,
 				CE5169862356EB6F00305792 /* SceneDelegate.swift in Sources */,
+				CE516999235718C000305792 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
